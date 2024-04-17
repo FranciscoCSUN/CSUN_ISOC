@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:53:51 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Wed Apr 17 09:39:40 2024
+# Process ID: 18776
+# Current directory: C:/Users/franc/Desktop/gtwizard
+# Command line: vivado.exe
+# Log file: C:/Users/franc/Desktop/gtwizard/vivado.log
+# Journal file: C:/Users/franc/Desktop/gtwizard\vivado.jou
+# Running On: MSI, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 16, Host memory: 16865 MB
+#-----------------------------------------------------------
+start_gui
+ls
+source gtwizard_0_ex.tcl
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top reed_solomon_process_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source reed_solomon_process_tb.tcl
+run 100 us
+close_sim

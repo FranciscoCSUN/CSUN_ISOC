@@ -1,0 +1,3 @@
+ --> RS_Encoder_pkg
+commrshdl/RS Encoder/Integer-Input RS Encoder HDL Optimized --> Integer_Input_RS_Encoder_HDL_Optimized
+commrshdl/RS Encoder --> RS_Encoder

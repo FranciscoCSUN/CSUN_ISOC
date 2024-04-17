@@ -1,0 +1,4 @@
+ --> RS_Decoder_pkg
+commrshdl/RS Decoder/Integer-Output RS Decoder HDL Optimized/SimpleDualPortRAM_generic --> SimpleDualPortRAM_generic
+commrshdl/RS Decoder/Integer-Output RS Decoder HDL Optimized --> Integer_Output_RS_Decoder_HDL_Optimized
+commrshdl/RS Decoder --> RS_Decoder
